@@ -13,7 +13,7 @@ class ProductController extends Controller
     {
         $id = $req->input('id');
         $limit = $req->input('limit');
-        $name = $req->input('id');
+        $name = $req->input('name');
         $description = $req->input('description');
         $tags = $req->input('tags');
         $categories = $req->input('categories');
